@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+venv/
+ENV/
+env/
+.venv/
+*venv/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# OpenCV specific
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mpeg
+*.flv
+*.wmv
+*.weights
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large data files
+*.dat
+*.model
+*.pb
+*.h5
+*.hdf5
+*.pkl
+*.pth
+*.pt
+*.caffemodel
+*.onnx
+
+# Ignore nested git repositories
+cloning/silero-models/
